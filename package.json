@@ -1,0 +1,22 @@
+{
+    "name": "vscode-subtle-night",
+    "displayName": "Subtle Night",
+    "description": "A dark theme leveraging shades of gray with small amounts of color mixed in.",
+    "version": "0.0.1",
+    "publisher": "covertcj",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Subtle Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Subtle Night-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "name": "Subtle Night",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#101010",
+        "editor.foreground": "#ccc",
+        "activityBarBadge.background": "#666",
+		"sideBarTitle.foreground": "#ccc",
+		"sideBar.background": "#222"
+    },
+    "tokenColors": [
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"keyword.operator.new",
+				"storage.type",
+				"storage.modifier",
+				"variable.language.this"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation"
+			],
+			"settings": {
+				"foreground": "#ccc"
+			}
+		},
+
+		{
+			"name": "Constants",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#999980"
+			}
+		},
+
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"punctuation.definition.string",
+				"punctuation.support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#aa8585"
+			}
+		},
+
+		{
+			"name": "Types",
+			"scope": [
+				"meta.type",
+				"entity.name.tag",
+				"entity.name.type",
+				"entity.name.section.markdown"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+
+		{
+			"name": "Tags",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+
+		{
+			"name": "Tag Punctuation",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+
+		{
+			"name": "Calls",
+			"scope": [
+				"meta.function-call",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#babacc"
+			}
+		}, 
+
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#859985"
+			}
+		}
+    ]
+}
