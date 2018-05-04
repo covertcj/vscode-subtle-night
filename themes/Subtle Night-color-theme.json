@@ -3,10 +3,16 @@
     "type": "dark",
     "colors": {
         "editor.background": "#101010",
-        "editor.foreground": "#ccc",
+		"editor.foreground": "#ccc",
+		"editorLineNumber.activeForeground": "#aa8585",
+		"editor.lineHighlightBorder": "#00000000",
         "activityBarBadge.background": "#666",
 		"sideBarTitle.foreground": "#ccc",
-		"sideBar.background": "#222"
+		"sideBar.background": "#222",
+		"sideBar.foreground": "#bbb",
+		"scrollbarSlider.background": "#20202088",
+		"scrollbarSlider.hoverBackground": "#6668",
+		"statusBar.background": "#446"
     },
     "tokenColors": [
 		{
