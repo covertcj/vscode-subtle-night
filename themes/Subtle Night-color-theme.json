@@ -77,7 +77,8 @@
 				"meta.type",
 				"entity.name.tag",
 				"entity.name.type",
-				"entity.name.section.markdown"
+				"entity.name.section.markdown",
+				"variable.other.readwrite.less"
 			],
 			"settings": {
 				"foreground": "#999"
